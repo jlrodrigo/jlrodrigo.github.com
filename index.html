@@ -1,0 +1,437 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Jos&eacute L. Rodrigo</title>
+		 <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+
+
+		 <style>
+				body {
+					position: relative; 
+					background: url("img/fondo.jpg");
+					width : 80%;
+					margin : 0 auto;
+				}
+				
+				#nav{
+					width:80%;
+					
+					margin : 0 auto;
+				}
+
+				.jumbotron{
+					background-color:#567278;
+				}
+			
+								
+				/* 	*********************************************************
+					*********************************************************
+										Presentacion
+					*********************************************************
+					*********************************************************
+				 */
+				#presentacion {
+
+					height:100%;
+					color:white;
+					background-color: #1E88E5;
+					
+					background: url("img/fondoWeb.jpg") grey;
+					background-size:cover; 
+					background-repeat: no-repeat;
+					background-attachment: fixed;	
+					padding:150px 10% 50px 10%;
+
+				}
+				
+								
+				#presentacion header{
+					
+					color:#0CC4E9;
+					text-align:left;
+				}
+				
+				img{
+					display:none;
+				}
+				
+				#presentacion article{
+
+						padding:5%;
+						font-size:1.3em;
+						background:  #567278 ;
+
+				}
+				
+				#presentacion article:first-letter{
+
+						color:#0CC4E9;
+						font-size:3em;
+
+				}
+
+				@media only screen and (min-width: 1200px) {
+				
+					#presentacion article{
+
+						margin-top:200px;
+						padding:50px;
+						width:60%;
+						font-size:1.3em;
+						background:  #567278 ;
+						float:right;
+					}
+
+				}
+				
+				
+								
+				/* 	*********************************************************
+					*********************************************************
+										Formacion
+					*********************************************************
+					*********************************************************
+				 */
+			  
+				#formacion {
+					padding:100px 10% 50px 10%;
+					background: url("img/formacion.jpg") grey;  
+					background-size:cover;   
+					background-repeat: no-repeat;
+					background-attachment: fixed;	
+					color:white;
+					
+				}
+				
+				
+				/* 	*********************************************************
+					*********************************************************
+										Experiencia
+					*********************************************************
+					*********************************************************
+				 */
+				#experiencia {
+				
+					padding:100px 10% 50px 10%;
+					
+					background: url("img/experiencia.jpg") grey; 
+					background-size:cover;   
+					background-repeat: no-repeat;
+				}
+				
+								
+				/* 	*********************************************************
+					*********************************************************
+										Proyectos
+					*********************************************************
+					*********************************************************
+				 */
+				#proyectos {
+					padding:150px 10% 50px 10%;
+					background: url("img/experiencia.jpg") grey; 
+					background-size:cover;   
+					background-repeat: no-repeat;
+					
+					
+					display: none;
+				}
+				
+								
+				/* 	*********************************************************
+					*********************************************************
+										Contacto
+					*********************************************************
+					*********************************************************
+				 */
+				#contacto {
+					padding:150px 10% 50px 10%;
+					
+					background: url("img/contactar.jpg") grey;  
+					background-size:cover;   
+					background-repeat: no-repeat;
+					background-attachment: fixed;	
+				}
+				
+				
+				
+									
+				#contacto #texto{
+
+					margin: 0 5px;
+					
+				}
+
+				#contacto header{
+
+					width:70%;
+					font-size:2.3em;
+					font-style:bold;
+					color: #0CC4E9;
+					margin-bottom:20px;
+
+				}
+
+				#contacto article{
+
+					color:white;
+					width:70%;
+					font-size:1.2em;
+					text-align:left;
+					/*margin-right:50px;*/
+					
+
+				}
+
+				#contacto #formulario{
+					border-radius: 5px;
+					width : 40%;
+					padding:5px;
+
+					text-align:center;
+					margin: 0 5px;
+				}
+
+				#contacto #formulario #nombre{
+					height:35px;
+					border-radius: 5px;
+					width:49%;
+					
+				}
+				#contacto #formulario #email{
+					height:35px;
+					border-radius: 5px;
+					width:49%;
+					
+				}
+				#contacto #formulario #asunto{
+					border-radius: 5px;
+					width:99%;
+					box-sizing : border-box;
+					height:35px;
+					margin-top:10px;
+					margin-bottom:10px;
+				}
+
+				#contacto #formulario #mensaje{
+					
+					display: block;
+					border-radius: 10px;
+					box-sizing : border-box;
+					resize: none;
+					height:150px;
+					width:99%;
+					padding:2%;
+				}
+
+				#contacto #formulario #enviar{
+					border:none;
+					border-radius: 5px;
+					background: #0CC4E9;
+					height:35px;
+					width:50%;
+				}
+				
+				@media only screen and (max-width: 1200px) {
+				
+					#contacto header{
+
+						width:100%;
+
+					}
+
+					#contacto article{
+
+						width:100%;
+
+					}
+
+					#contacto #formulario{
+						
+						width : 100%;	
+					}
+
+				}
+												
+				/* 	*********************************************************
+					*********************************************************
+										Pie de pagina
+					*********************************************************
+					*********************************************************
+				 */
+
+
+				footer{
+					text-align:center;
+					background:#424949 ;
+					font-size:.7em;
+					height:15px;
+				}
+
+		  </style>
+
+		<script>
+
+
+		</script>
+	</head>
+
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+		<nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>                        
+			  </button>
+			 
+			</div>
+			<div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#presentacion" style="color: #0CC4E9;" >Home</a></li>
+					<li><a href="#formacion" >Education & skills</a></li>
+					<li><a href="#experiencia" >Work history</a></li>
+					<li><a href="#proyectos" >My projects</a></li>
+					<li><a href="#contacto" >Contact</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</nav>    
+
+		<section id="presentacion" class="container-fluid">
+		
+
+			<header class="container">
+
+			  <h1>I'am Jos&eacute L. Rodrigo</h1>
+			  
+			  <h3>Android & web developer</h3>
+
+			</header>
+			
+			<img src="foto.jpg" class="img-circle" alt="Cinque Terre" width="232" height="236"></img>
+			
+			<article class="jumbotron">
+				I 'm Android and Web Developer with more than one year of professional experience,
+				interested in solving problems using the best tools for the job.
+				During my career I've worked in different tech areas especially Back End and Mobile development.
+			</article>
+			
+		
+		
+		</section>
+	 
+		<section  id="formacion" class="container-fluid">
+			
+			<div class="jumbotron">
+				
+				<h2 style="color: #0CC4E9;">Education</h2>
+				
+				<ul id="education">
+					<li>Senior IT Technician</li>
+					<li>Oracle Certified Associate, Java SE 8 Programmer </li>
+					<li>Oracle Certified Professional, Java SE 8 Programmer </li>
+					
+					<li>Android developer course</li>
+					<li>ORACLE JAVA SE Professional Developer course</li>
+					<li>ORACLE JAVA EE web expert developer course with spring</li>			
+				</ul>
+			
+			</div>
+			
+			<div class="jumbotron">
+				<h2 style="color: #0CC4E9;">Skills</h2>
+				
+				<ul>
+						<li>HTML5/CSS3, JavaScript, AJAX, JQuery, Bootstrap</li>
+						<li>J2SE, Java EE, Spring, Struts</li>
+						<li>MySql, SQLite</li>
+						<li>Android</li>	
+					</ul>
+			</div>
+				
+			<div class="jumbotron">	
+				<h2 style="color: #0CC4E9;">Profesional skills</h2>
+				
+					<ul>
+						<li>Verbal communication</li>
+						<li>Teamwork</li>
+						<li>Flexibility</li>
+						<li>Initiative</li>	
+					</ul>
+			</div>
+		
+		
+		</section>
+		
+		<section id="experiencia" class="container-fluid">
+
+				<h2 style="color: #0CC4E9;text-align:center">Experience</h2>
+				
+				<h3 style="color: #0CC4E9;text-align:center">Android & Web Developer<br/><small>At present</small></h3>
+				
+				<p class="jumbotron" style="color: white;text-align: center;"> Web development in J2EE platform. Analysis and development of new requirements 
+					requested by the customers and maintenance of the existing applications. 
+					Technologies used: JAVA EE, JavaScript, jQuery, Bootstrap, AJAX, HTML5, CSS3.<br/>
+					Development of mobile applications for android using technologies such as Firebase and SQLite.
+					<br/><br/><i>Csic (Consejo Superior de Investigaciones Cientificas)</i>
+				</p>
+				
+			
+		
+		</section>
+		
+		<section id="proyectos" class="container-fluid">
+		
+		
+		</section>
+		
+		
+		<section id="contacto" class="container-fluid">
+		
+			<div  class="row jumbotron">
+				<div id="texto" class="col-sm-6">
+					<header>Contacto</header>
+					
+					<article>If you want to contact me,
+								Send an email to JLRodrigo85@gmail.com.
+								Or you can fill out the form on the right.
+					</article>
+				</div>
+
+					
+				<div id="formulario" class="col-sm-6">
+					<form action="mailto:jlrodrigo85@gmail.com" method=post>
+						<input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+						<input type="email" name="email" id="email" placeholder="Email" required><br />
+						<input type="text" name="asunto" id="asunto" placeholder="Asunto" required><br />
+						<textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea><br />
+						<input id="enviar" type="submit" name="Submit" value="Enviar">
+					
+					</form>
+				</div>
+			</div>
+		
+		</section>
+		
+		<footer>
+			<p>Site design &#169 2017 by Jos&eacute Luis Rodrigo Oliva</p>
+		</footer>
+
+
+	</body>
+
+</html> 
