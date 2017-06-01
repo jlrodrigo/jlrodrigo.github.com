@@ -28,7 +28,7 @@ body {
 	color:white;
 	background-color: #1E88E5;
 	
-	background: url("img/fondoWeb.jpg") grey;
+	background: url("../img/fondoWeb.jpg") grey;
 	background-size:cover; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
@@ -87,7 +87,7 @@ img{
 
 #formacion {
 	padding:100px 10% 50px 10%;
-	background: url("img/formacion.jpg") grey;  
+	background: url("../img/formacion.jpg") grey;  
 	background-size:cover;   
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
@@ -106,7 +106,7 @@ img{
 
 	padding:100px 10% 50px 10%;
 	
-	background: url("img/experiencia.jpg") grey; 
+	background: url("../img/experiencia.jpg") grey; 
 	background-size:cover;   
 	background-repeat: no-repeat;
 }
@@ -120,7 +120,7 @@ img{
  */
 #proyectos {
 	padding:150px 10% 50px 10%;
-	background: url("img/experiencia.jpg") grey; 
+	background: url("../img/experiencia.jpg") grey; 
 	background-size:cover;   
 	background-repeat: no-repeat;
 	
@@ -138,7 +138,7 @@ img{
 #contacto {
 	padding:150px 10% 50px 10%;
 	
-	background: url("img/contactar.jpg") grey;  
+	background: url("../img/contactar.jpg") grey;  
 	background-size:cover;   
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
