@@ -268,18 +268,21 @@ img{
 }
 
 #contacto #formulario #nombre{
+	border:none;
 	height:35px;
 	border-radius: 5px;
 	width:49%;
 	
 }
 #contacto #formulario #email{
+	border:none;
 	height:35px;
 	border-radius: 5px;
 	width:49%;
 	
 }
 #contacto #formulario #asunto{
+	border:none;
 	border-radius: 5px;
 	width:99%;
 	box-sizing : border-box;
@@ -290,6 +293,7 @@ img{
 
 #contacto #formulario #mensaje{
 	
+	border:none;
 	display: block;
 	border-radius: 10px;
 	box-sizing : border-box;
