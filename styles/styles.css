@@ -1,44 +1,18 @@
-body {
-	position: relative; 
-	background: url("../img/fondo.jpg");
-	width : 80%;
-	margin : 0 auto;
-}
-
-@media only screen and (max-width:720px){
-		
-	
-	body{
-		position: relative; 
-		background: url("../img/fondo.jpg");
-		width : 100%;
-		margin : 0 auto;
-	}
-	
-}
-
-#nav{
-	width:80%;
-	
-	margin : 0 auto;
-}
-
-
-@media only screen and (max-width:720px){
-	#nav {
-
-		width : 100%;
-
-	}
-		
-	
-
-}
 
 .jumbotron{
 	background-color:#567278;
 }
 
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
 				
 /* 	*********************************************************
 	*********************************************************
@@ -75,7 +49,7 @@ body {
 				
 #presentacion header{
 	
-	color:#0CC4E9;
+	color: #0CC4E9;;
 	text-align:left;
 }
 
@@ -93,7 +67,7 @@ img{
 
 #presentacion article:first-letter{
 
-		color:#0CC4E9;
+		color: #0CC4E9;;
 		font-size:3em;
 
 }
@@ -123,14 +97,14 @@ img{
 
 #formacion {
 	padding:100px 10% 50px 10%;
-	background: url("../img/formacion.jpg") grey;  
+	/*background: url("../img/formacion.jpg") grey;  */
+	background:#0099ff;
 	background-size:cover;   
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 	color:white;
 	
 }
-
 
 @media only screen and (max-width:720px){
 	#formacion {
