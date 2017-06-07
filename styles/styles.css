@@ -148,6 +148,11 @@
 	
 
 }
+
+#contact{
+	
+	padding-bottom:50px;
+}
 							
 /* 	*********************************************************
 	*********************************************************
@@ -158,10 +163,8 @@
 
 
 footer{
-	border: solid 1px #1E88E5;
-	background : #1E88E5;
-	color:white;
 	text-align:center;
 	font-size:.7em;
 	height:15px;
+	border-top:solid #1E88E5 1px;
 }
