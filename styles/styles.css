@@ -1,17 +1,36 @@
 
 .jumbotron{
-	background-color:#567278;
+
 }
 
+.navbar{
+	
+	 background:#1E88E5;
+	 border:none;
+	
+}
 
 .navbar .navbar-nav {
+  color:white;
   display: inline-block;
   float: none;
   vertical-align: top;
 }
 
 .navbar .navbar-collapse {
+	 
   text-align: center;
+}
+
+#myNavbar li a{
+	
+	color:white;
+}
+
+#myNavbar li a:hover{
+	
+	color:#1E88E5;
+	background:white;
 }
 				
 /* 	*********************************************************
@@ -23,64 +42,45 @@
 #presentacion {
 
 	height:100%;
-	color:white;
-	background-color: #1E88E5;
-	
-	background: url("../img/fondoWeb.jpg") grey;
+	background: url("../img/Silueta.jpg") grey;
 	background-size:cover; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 	padding:150px 10% 50px 10%;
 
 }
-
-
-@media only screen and (max-width:720px){
-	#presentacion {
-
-		padding:50px 3% 25px 3%;
-
-	}
-		
-	
-
-}
-
-				
+			
 #presentacion header{
 	
-	color: #0CC4E9;;
+	font-weight: bold;
+	color: #1E88E5;
 	text-align:left;
-}
-
-img{
-	display:none;
 }
 
 #presentacion article{
 
 		padding:5%;
 		font-size:1.3em;
-		background:  #567278 ;
+		background:  white ;
 
 }
 
 #presentacion article:first-letter{
 
-		color: #0CC4E9;;
+		color: #1E88E5;
 		font-size:3em;
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 720px) {
 
 	#presentacion article{
 
-		margin-top:200px;
+		margin-top:100px;
 		padding:50px;
 		width:60%;
 		font-size:1.3em;
-		background:  #567278 ;
+		/*background:  #567278 ;*/
 		float:right;
 	}
 
@@ -96,26 +96,27 @@ img{
  */
 
 #formacion {
-	padding:100px 10% 50px 10%;
-	/*background: url("../img/formacion.jpg") grey;  */
-	background:#0099ff;
-	background-size:cover;   
-	background-repeat: no-repeat;
-	background-attachment: fixed;	
+	padding:50px 10% 50px 10%;
+	background:#1E88E5;
 	color:white;
 	
 }
 
-@media only screen and (max-width:720px){
-	#formacion {
 
-		padding:50px 3% 25px 3%;
 
-	}
-		
+#educacion{
+	padding:50px 10% 50px 10%;
+	background:white;
+	color:#1E88E5;
 	
-
 }
+
+#educacion a{
+	text-decoration:none;
+	color:#1E88E5;
+}
+
+
 
 
 /* 	*********************************************************
@@ -131,6 +132,12 @@ img{
 	background: url("../img/experiencia.jpg") grey; 
 	background-size:cover;   
 	background-repeat: no-repeat;
+}
+
+#experiencia hgroup{
+	
+	color: #1E88E5;
+	text-align:center;
 }
 
 
@@ -182,25 +189,29 @@ img{
 	*********************************************************
  */
 #contacto {
-	padding:150px 10% 50px 10%;
+	padding:50px 10% 20px 10%;
 	
-	background: url("../img/contactar.jpg") grey;  
+	background: white;  
 	background-size:cover;   
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 }
 
 
+
 @media only screen and (max-width:720px){
 	#contacto {
 
-		padding:50px 3% 25px 3%;
+		padding:50px 3% 10px 3%;
 
 	}
-		
-	
-
 }
+
+#contacto .row{
+	
+	background:#1E88E5;
+}
+
 
 
 
@@ -213,20 +224,22 @@ img{
 
 #contacto header{
 
+
 	width:70%;
 	font-size:2.3em;
 	font-style:bold;
-	color: #0CC4E9;
+	color: white;
 	margin-bottom:20px;
 
 }
 
 #contacto article{
 
-	color:white;
+	
 	width:70%;
 	font-size:1.2em;
 	text-align:left;
+	color:white;
 	/*margin-right:50px;*/
 	
 
@@ -280,7 +293,6 @@ img{
 #contacto #formulario #enviar{
 	border:none;
 	border-radius: 5px;
-	background: #0CC4E9;
 	height:35px;
 	width:50%;
 }
