@@ -42,7 +42,7 @@
 #presentacion {
 
 	height:100%;
-	background: url("../img/Silueta.jpg") grey;
+	background: url("../img/Silueta2.jpg") grey;
 	background-size:cover; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
@@ -113,11 +113,16 @@
 #educacion{
 	padding:50px 10% 50px 10%;
 	background:white;
-	color:#1E88E5;
+	
 	
 }
 
 #educacion a{
+	text-decoration:none;
+	color:#1E88E5;
+}
+
+#educacion h3{
 	text-decoration:none;
 	color:#1E88E5;
 }
